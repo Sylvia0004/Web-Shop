@@ -1,0 +1,91 @@
+
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   text-align: center;
+}
+
+.bg-white{
+    background-color: rgb(177, 96, 137);
+    height: max-content;
+    padding-bottom: 40px;
+
+}
+.navbar{
+    display: flex;
+    gap: 50%;
+    padding: 10px 20px !important;
+}
+
+.navbar-brand {
+    color: blueviolet;
+}
+
+.welcome-div {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.product-div{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.product{
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.pics{
+    background-color: rgb(243, 243, 243);
+
+    border-radius: 10px;
+
+}
+
+img{
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.btn {
+  background: #05090d;
+  background-image: -webkit-linear-gradient(top, #05090d, #2980b9);
+  background-image: -moz-linear-gradient(top, #05090d, #2980b9);
+  background-image: -ms-linear-gradient(top, #05090d, #2980b9);
+  background-image: -o-linear-gradient(top, #05090d, #2980b9);
+  background-image: linear-gradient(to bottom, #05090d, #2980b9);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #99b0bf;
+  background-image: -webkit-linear-gradient(top, #99b0bf, #3498db);
+  background-image: -moz-linear-gradient(top, #99b0bf, #3498db);
+  background-image: -ms-linear-gradient(top, #99b0bf, #3498db);
+  background-image: -o-linear-gradient(top, #99b0bf, #3498db);
+  background-image: linear-gradient(to bottom, #99b0bf, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container {
+    text-align: center;
+    padding: 20px 0 20px;
+    background-color:#05090d
+}
+.copyright {
+    color: white
+}
