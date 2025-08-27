@@ -4,6 +4,10 @@ body{
    text-align: center;
 }
 
+p{
+    margin-bottom: 0 !important;
+}
+
 .bg-white{
     background-color: rgb(177, 96, 137);
     height: max-content;
